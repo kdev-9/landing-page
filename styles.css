@@ -24,20 +24,21 @@
     color: #E5E7EB;
 }
 
-.secone {
+.sec-one {
     display: flex;
     align-items: center;
     background-color: #1F2937;
     height: 450px;
     padding-left: 124px;
     padding-right: 124px;
+    justify-content: space-between;
 }
 
 .onecard {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    gap: 10px;
+    width: 490px;
+    gap: 14px;
 }
 
 .awetext {
@@ -59,4 +60,8 @@
     justify-content: center;
     background-color: #3882F6;
     color: #F9FAF8;
+}
+
+.sec-one img {
+    height: 250px;
 }
