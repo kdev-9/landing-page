@@ -1,0 +1,62 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding-left: 124px;
+    padding-right: 124px;
+}
+
+.head-links {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin-left: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.secone {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    height: 450px;
+    padding-left: 124px;
+    padding-right: 124px;
+}
+
+.onecard {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 10px;
+}
+
+.awetext {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.awesub {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.signtop {
+    display: flex;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 98px;
+    justify-content: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
