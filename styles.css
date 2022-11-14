@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     background-color: #1F2937;
-    height: 450px;
+    height: 400px;
     padding-left: 124px;
     padding-right: 124px;
     justify-content: space-between;
@@ -37,7 +37,7 @@
 .onecard {
     display: flex;
     flex-direction: column;
-    width: 490px;
+    width: 500px;
     gap: 14px;
 }
 
@@ -64,4 +64,33 @@
 
 .sec-one img {
     height: 250px;
+}
+
+.sec-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.twotitle {
+    display: flex;
+   font-size: 36px; 
+   font-weight: 900;
+   color: #1F2937;
+   margin: 28px;
+}
+
+.twocard {
+    display: flex;
+    margin-top: -35px;
+}
+
+.twocard div {
+    display: flex;
+    flex-direction: column;
+}
+
+.twocard img {
+    width: 200px;
+    border: ;
 }
