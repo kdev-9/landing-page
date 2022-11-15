@@ -71,7 +71,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 330px;
+    height: 355px;
 }
 
 .twotitle {
@@ -130,4 +130,45 @@
     display: flex;
     margin-left: auto;
     font-weight: bold;
+}
+
+.sec-four {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctabox {
+    display: flex;
+    height: 100px;
+    background-color: #3882F6;
+    width: 650px;
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cta-textbox {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.signbot {
+    margin-left: auto;
+    display: flex;
+    padding: 6px 12px;
+    border-radius: 8px;
+    width: 90px;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: white;
+}
+
+.bold,
+.cta-text {
+    color: #E5E7EB;
 }
