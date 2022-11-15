@@ -146,7 +146,7 @@
     width: 650px;
     padding: 10px 30px;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .cta-textbox {
@@ -170,5 +170,15 @@
 
 .bold,
 .cta-text {
-    color: #E5E7EB;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 26px;
 }
